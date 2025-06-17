@@ -1,6 +1,7 @@
 ﻿using ApiLaboratorial.appDbContext;
 using ApiLaboratorial.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace ApiLaboratorial.Controlles
 {
@@ -14,18 +15,37 @@ namespace ApiLaboratorial.Controlles
         {
             _context = context;
         }
-        [Route("usuarios")]
+        [Route("sensores/temperaturas")]
         [HttpGet]
-        public IActionResult Usuarios()
+        public async Task<IActionResult> listarDados()
         {
-            var usuarios = new List<object>
-            { 
-                new { Id = 1, Nome = "João Silva", Email = "joao@example.com" },
-                new { Id = 2, Nome = "Maria Oliveira", Email = "maria@example.com" },
-                new { Id = 3, Nome = "Carlos Souza", Email = "carlos@example.com" }
-            };
+            try
+            {
+                var dados = _context.Sensor.ToList();
+                return Ok(dados);
+            }
+            catch (Exception)
+            {
+                return NotFound();
+            }
+;
+        }
 
-            return Ok(usuarios);
+        [Route("sensor")]
+        [HttpPost]
+        public async Task<IActionResult> adicionarDados (Sensor sensor)
+        {
+            try
+            {
+                await _context.Sensor.AddAsync(sensor);
+                await _context.SaveChangesAsync();
+
+                return Ok(sensor);
+            }
+            catch (Exception)
+            {
+                return NotFound();
+            }
         }
 
     }

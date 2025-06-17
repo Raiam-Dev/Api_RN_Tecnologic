@@ -5,15 +5,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.ListenAnyIP(8080); // Porta padrão do Railway
+    options.ListenAnyIP(8080); 
 });
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DATABASE_URL"))
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection"))
 );
 
-// Adiciona o Swagger
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();

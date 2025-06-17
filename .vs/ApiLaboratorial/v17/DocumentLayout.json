@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F677E0A7-2355-4549-84C4-46C9F787639D}|ApiLaboratorial.csproj|c:\\users\\administrador\\source\\repos\\apilaboratorial\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F677E0A7-2355-4549-84C4-46C9F787639D}|ApiLaboratorial.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F677E0A7-2355-4549-84C4-46C9F787639D}|ApiLaboratorial.csproj|c:\\users\\administrador\\source\\repos\\apilaboratorial\\models\\sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F677E0A7-2355-4549-84C4-46C9F787639D}|ApiLaboratorial.csproj|solutionrelative:models\\sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F677E0A7-2355-4549-84C4-46C9F787639D}|ApiLaboratorial.csproj|c:\\users\\administrador\\source\\repos\\apilaboratorial\\controlles\\dadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F677E0A7-2355-4549-84C4-46C9F787639D}|ApiLaboratorial.csproj|solutionrelative:controlles\\dadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F677E0A7-2355-4549-84C4-46C9F787639D}|ApiLaboratorial.csproj|c:\\users\\administrador\\source\\repos\\apilaboratorial\\appdbcontext\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F677E0A7-2355-4549-84C4-46C9F787639D}|ApiLaboratorial.csproj|solutionrelative:appdbcontext\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F677E0A7-2355-4549-84C4-46C9F787639D}|ApiLaboratorial.csproj|c:\\users\\administrador\\source\\repos\\apilaboratorial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,32 +30,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 47,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DadosController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\Controlles\\DadosController.cs",
-              "RelativeDocumentMoniker": "Controlles\\DadosController.cs",
-              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\Controlles\\DadosController.cs",
-              "RelativeToolTip": "Controlles\\DadosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBEAAAARAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Sensor.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\Models\\Sensor.cs",
+              "RelativeDocumentMoniker": "Models\\Sensor.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\Models\\Sensor.cs",
+              "RelativeToolTip": "Models\\Sensor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T11:39:22.335Z",
+              "WhenOpened": "2025-06-17T12:05:20.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "appContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\AppDbContext\\appContext.cs",
+              "RelativeDocumentMoniker": "AppDbContext\\appContext.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\AppDbContext\\appContext.cs",
+              "RelativeToolTip": "AppDbContext\\appContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T11:36:10.418Z",
+              "WhenOpened": "2025-06-17T12:03:57.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-17T12:01:17.726Z",
               "EditorCaption": ""
             },
             {
@@ -57,6 +82,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DadosController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\Controlles\\DadosController.cs",
+              "RelativeDocumentMoniker": "Controlles\\DadosController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\Controlles\\DadosController.cs",
+              "RelativeToolTip": "Controlles\\DadosController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvyMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:39:22.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\ApiLaboratorial\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:36:10.418Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -7,6 +7,6 @@ namespace ApiLaboratorial.appDbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options){ }
 
-        public DbSet<TabelaTeste> TabelaTestes { get; set; }
+        public DbSet<Sensor>  Sensor{ get; set; }
     }
 }

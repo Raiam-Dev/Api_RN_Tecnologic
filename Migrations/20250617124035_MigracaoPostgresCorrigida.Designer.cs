@@ -3,17 +3,17 @@ using System;
 using ApiLaboratorial.appDbContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
 namespace ApiLaboratorial.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250605144033_MigracaoSecundaria")]
-    partial class MigracaoSecundaria
+    [Migration("20250617124035_MigracaoPostgresCorrigida")]
+    partial class MigracaoPostgresCorrigida
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,29 +21,29 @@ namespace ApiLaboratorial.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "9.0.5")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+                .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+            NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("ApiLaboratorial.Models.TabelaTeste", b =>
+            modelBuilder.Entity("ApiLaboratorial.Models.Sensor", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("uuid");
 
                     b.Property<double>("Bateria")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
+
+                    b.Property<string>("Dispositivo")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<double>("Temperatura")
-                        .HasColumnType("float");
-
-                    b.Property<string>("Titulo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("double precision");
 
                     b.HasKey("Id");
 
-                    b.ToTable("TabelaTestes");
+                    b.ToTable("Sensor");
                 });
 #pragma warning restore 612, 618
         }

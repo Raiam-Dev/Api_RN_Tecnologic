@@ -159,3 +159,5 @@ C:\Users\Administrador\source\repos\ApiLaboratorial\bin\Debug\net9.0\Swashbuckle
 C:\Users\Administrador\source\repos\ApiLaboratorial\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Administrador\source\repos\ApiLaboratorial\obj\Debug\net9.0\ApiLaboratorial.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Administrador\source\repos\ApiLaboratorial\obj\Debug\net9.0\ApiLaboratorial.sourcelink.json
+C:\Users\Administrador\source\repos\ApiLaboratorial\bin\Debug\net9.0\Npgsql.dll
+C:\Users\Administrador\source\repos\ApiLaboratorial\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

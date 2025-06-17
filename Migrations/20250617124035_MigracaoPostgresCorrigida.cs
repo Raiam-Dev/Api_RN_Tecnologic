@@ -6,23 +6,23 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ApiLaboratorial.Migrations
 {
     /// <inheritdoc />
-    public partial class MigracaoSecundaria : Migration
+    public partial class MigracaoPostgresCorrigida : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "TabelaTestes",
+                name: "Sensor",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Titulo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Temperatura = table.Column<double>(type: "float", nullable: false),
-                    Bateria = table.Column<double>(type: "float", nullable: false)
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Dispositivo = table.Column<string>(type: "text", nullable: false),
+                    Temperatura = table.Column<double>(type: "double precision", nullable: false),
+                    Bateria = table.Column<double>(type: "double precision", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_TabelaTestes", x => x.Id);
+                    table.PrimaryKey("PK_Sensor", x => x.Id);
                 });
         }
 
@@ -30,7 +30,7 @@ namespace ApiLaboratorial.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "TabelaTestes");
+                name: "Sensor");
         }
     }
 }
