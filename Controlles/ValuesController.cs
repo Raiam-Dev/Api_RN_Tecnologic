@@ -16,6 +16,7 @@ namespace ApiLaboratorial.Controlles
         {
             _context = context;
         }
+        
         [HttpPost]
         public async Task<IActionResult> Post(TabelaTeste tabela)
         {
@@ -29,6 +30,12 @@ namespace ApiLaboratorial.Controlles
             {
                 return NotFound(erro);
             }
+        }
+        [Route("/listar")]
+        [HttpGet]
+        public IActionResult listados()
+        {
+            return Ok();
         }
     }
 }
