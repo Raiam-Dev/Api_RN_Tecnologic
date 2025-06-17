@@ -153,9 +153,9 @@ C:\Users\Administrador\source\repos\ApiLaboratorial\obj\Debug\net9.0\refint\ApiL
 C:\Users\Administrador\source\repos\ApiLaboratorial\obj\Debug\net9.0\ApiLaboratorial.pdb
 C:\Users\Administrador\source\repos\ApiLaboratorial\obj\Debug\net9.0\ApiLaboratorial.genruntimeconfig.cache
 C:\Users\Administrador\source\repos\ApiLaboratorial\obj\Debug\net9.0\ref\ApiLaboratorial.dll
-C:\Users\Administrador\source\repos\ApiLaboratorial\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Administrador\source\repos\ApiLaboratorial\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\Users\Administrador\source\repos\ApiLaboratorial\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Administrador\source\repos\ApiLaboratorial\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Administrador\source\repos\ApiLaboratorial\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Administrador\source\repos\ApiLaboratorial\obj\Debug\net9.0\ApiLaboratorial.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrador\source\repos\ApiLaboratorial\obj\Debug\net9.0\ApiLaboratorial.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiLaboratorial")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af0dd425248bd331de875aa9c2e318e9929c0014")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiLaboratorial")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiLaboratorial")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
